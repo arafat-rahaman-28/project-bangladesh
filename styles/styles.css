@@ -1,4 +1,23 @@
 
+body{
+    background-color: #F1F1F3;
+    font-family: Fira sans;
+}
+
+/* Shared Clases */
+.card-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.card-icon{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
 /* Header's Navigation Section Styling */
 header nav{
     /* margin-top: 31px;
@@ -47,6 +66,7 @@ header .banner{
     align-items: center;
     justify-content: space-between;
     gap: 64px;
+    margin-bottom: 80px;
 }
 
 .banner .sub-heading{
@@ -82,4 +102,98 @@ header .banner{
     margin-top: 117px;
     margin-left: 60px;
     margin-bottom: 117px;
+}
+
+/* Pillars Section Styling */
+.pillar{
+    max-width: 1280px;
+    height: 324px;
+    margin: 0px auto;
+}
+.pillar-cards{
+    font-family: Fira sans;
+    display: flex;
+    gap: 24px;
+
+}
+.pillar-cards h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.card{
+    width: 270px;
+    height: 180px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0px 0px 16px rgb(209, 209, 209);
+    padding: 24px;
+}
+
+/* Vision Section Styling */
+.vision{
+    max-width: 1280px;
+    height: 765px;
+    margin: 0px auto;
+}
+.vision-text-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    outline-color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vision-text-content p{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision-card{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    width: 360px;
+}
+.vision-card button{
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Fira sans;
+    font-size: 16px;
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.quote-card{
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid black;
+    padding: 48px 24px;
+    margin-top: 32px;
+}
+.quote-card p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 0px;
+}
+.quote-card h3{
+    margin-top: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.profession{
+    margin-bottom: 0px;
 }
