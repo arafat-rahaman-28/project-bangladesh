@@ -1,0 +1,85 @@
+
+/* Header's Navigation Section Styling */
+header nav{
+    /* margin-top: 31px;
+    margin-bottom: 31px;
+    margin-left: 160px;
+    margin-right: 160px; */
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 122px;
+    padding-right: 122px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav section h3, button{
+    font-family: Fira sans;
+}
+header nav section h3{
+    font-weight: bold;
+    font-size: 32px;
+    color: #0E0E0E;
+}
+header nav section button{
+    background: transparent;
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #006A50;
+}
+
+/* Banner Section Styling */
+header .banner{
+    max-width: 1280px;
+    height: 560px;
+    margin: 0px auto;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    font-family: Fira sans;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.banner .sub-heading{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.banner .heading{
+    width: 622px;
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.banner .banner-btn{
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+.banner .banner-image{
+    width: 474.03px;
+    height: 400px;
+    margin-right: 60px;
+}
+.text-btn-content{
+    text-align: left;
+    margin-top: 117px;
+    margin-left: 60px;
+    margin-bottom: 117px;
+}
